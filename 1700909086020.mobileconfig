@@ -18,17 +18,6 @@
 <string>apple.com</string>
 </array>
 </dict>
-<key>OnDemandEnabled</key>
-<integer>1</integer>
-<key>OnDemandRules</key>
-<array>
-<dict>
-<key>Action</key>
-<string>Disconnect</string>
-<key>InterfaceTypeMatch</key>
-<string>Cellular</string>
-</dict> 
-</array>
 <key>PayloadDisplayName</key>
 <string>Cu Chương</string>
 <key>PayloadIdentifier</key>
