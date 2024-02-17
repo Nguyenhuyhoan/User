@@ -1,0 +1,49 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict><key>PayloadContent</key>
+<array>
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>ServerAddresses</key>
+<array>
+<string>2a10:50c0:c000::f312:c12c</string>
+<string>2a10:50c0:c000::1:f312:c12c</string>
+</array>
+<key>SupplementalMatchDomains</key>
+<array>
+<string>apple.com</string>
+</array>
+</dict>
+<key>PayloadDisplayName</key>
+<string>🌸🌼 Chặn Thu Hồi 🌼🌸</string>
+<key>PayloadIdentifier</key>
+<string>3467755466434566</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>34677545654456667</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict> 
+</array>
+<key>PayloadDisplayName</key>
+<string>🌸🌼 Chặn Thu Hồi 🌼🌸</string>
+<key>PayloadDescription</key>
+<string>Nro</string>
+<key>PayloadIdentifier</key>
+<string>34577745777444677</string>
+<key>PayloadRemovalDisallowed</key>
+<false/>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadUUID</key>
+<string>97654445675456777</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict>
+</plist>
+
+    
