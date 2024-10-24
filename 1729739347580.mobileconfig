@@ -1,0 +1,61 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict><key>PayloadContent</key>
+<array>
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>DNSProtocol</key>
+<string>HTTPS</string>
+<key>ServerURL</key>
+<string>Hh</string>
+<key>SupplementalMatchDomains</key>
+<array>
+<string>apple.com</string>
+</array>
+</dict>
+<key>PayloadDisplayName</key>
+<string>Hhh</string>
+<key>PayloadOrganization</key>
+<string>Hhh</string>
+<key>PayloadIdentifier</key>
+<string>3467755466434566</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>34677545654456667</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict> 
+</array>
+<key>PayloadDisplayName</key>
+<string>Hhh</string>
+
+<key>PayloadDescription</key>
+<string>
+🌟 Note:
++ Do not use other DNS or VPNs in parallel with this DNS unless you know that those DNS and VPNs have the function to block recalls.
++ Before restarting the device, turn off all networks and enable airplane mode to prevent network leaks. (If you don't do this, upon restarting, the configuration may not activate in time, causing network leaks and resulting in certificate revocation).
+
+🌟 How the Configuration Works:
++ The configuration will route all Apple links through Adguard DNS, while all other links will go through the device's original DNS. Adguard DNS filters Apple's links, blocking those attempting to revoke certificates and allowing others to pass.
++ With the configuration you just created, even if you share it with 3 other people, you will still not exceed 300,000 queries by the end of the month.
++ The configuration does not have an ad-blocking function.
+</string>
+
+<key>PayloadIdentifier</key>
+<string>34577745777444677</string>
+<key>PayloadRemovalDisallowed</key>
+<false/>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadUUID</key>
+<string>97654445675456777</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict>
+</plist>
+
+    
