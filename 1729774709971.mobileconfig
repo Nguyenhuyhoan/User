@@ -1,0 +1,60 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict><key>PayloadContent</key>
+<array>
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>DNSProtocol</key>
+<string>HTTPS</string>
+<key>ServerURL</key>
+<string>https://d.adguard-dns.com/dns-query/a9cd1f1f</string>
+<key>SupplementalMatchDomains</key>
+<array>
+<string>apple.com</string>
+</array>
+</dict>
+<key>PayloadDisplayName</key>
+<string>DSN CHẶN THU HỒI</string>
+<key>PayloadOrganization</key>
+<string>👎 </string>
+<key>PayloadIdentifier</key>
+<string>3467755466434566</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>34677545654456667</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict> 
+</array>
+<key>PayloadDisplayName</key>
+<string>DSN CHẶN THU HỒI</string>
+<key>PayloadDescription</key>
+<string>
+🌟 Lưu Ý:
++ Không dùng DNS hoặc VPN khác song song với DNS này khi chưa biết DNS và VPN đó có chức năng chặn thu hồi.
++ Trước khi khởi động lại máy thì tắt hết mạng và bật chế độ máy bay để tránh rò rĩ mạng. (Nếu không làm vậy thì khi khởi động lại máy, cấu hình chưa kịp hoạt động gây rò rĩ mạng, hậu quả là chứng chỉ bị thu hồi).
+
+🌟 Cách hoạt động của cấu hình:
++ Cấu hình sẽ cho tất cả link của Apple qua Adguard DNS, tất cả link còn lại qua DNS gốc của máy. Adguard DNS có nhiệm vụ lọc link của Apple, link nào thu hồi chứng chỉ thì chặn, các link khác cho qua.
++ Với một cấu hình bạn vừa tạo này, bạn vừa dùng vừa chia sẽ thêm 3 người khác dùng thì hết tháng đảm bảo vẫn không hết 300.000 truy vấn. 
++ Cấu hình không có chức năng chặn quảng cáo.
+
+</string>
+<key>PayloadIdentifier</key>
+<string>34577745777444677</string>
+<key>PayloadRemovalDisallowed</key>
+<false/>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadUUID</key>
+<string>97654445675456777</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict>
+</plist>
+
+    
